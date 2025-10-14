@@ -16,6 +16,7 @@ for i in range(repeticoes):
         par += 1
     else:
         impar += 1
+media = soma / repeticoes
 
 for i in sequencia:
     divisiveis = 0
@@ -26,11 +27,10 @@ for i in sequencia:
         primo += 1
     
 
-media = soma / repeticoes
 
 print(f'Sua sequencia é: {sequencia}')
 print(f'Soma: {soma}')
-print(f'Média: {media:.0f}')
+print(f'Média: {media:.1f}')
 print(f'Pares: {par}')
 print(f'Ímpares: {impar}')
 print(f'Primos: {primo}')
