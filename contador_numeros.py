@@ -1,7 +1,6 @@
 import random
 sequencia = []
 repeticoes = int(input('Digite quantos numeros quer: '))
-divisiveis = 0
 par = 0
 impar = 0
 primo = 0
@@ -23,7 +22,7 @@ for i in sequencia:
     for c in range(1, i + 1):
         if i % c == 0:
             divisiveis += 1
-    if divisiveis <= 2:
+    if divisiveis == 2:
         primo += 1
     
 
